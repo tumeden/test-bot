@@ -1,0 +1,37 @@
+{
+  "name": "xxbot",
+  "version": "1.0.0",
+  "description": "multi-purpose bot",
+  "main": "start.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tumeden/xxbot.git"
+  },
+  "keywords": [
+    "multi",
+    "purpose",
+    "bot",
+    "twitch",
+    "discord"
+  ],
+  "author": "Tumeden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tumeden/xxbot/issues"
+  },
+  "homepage": "https://github.com/tumeden/xxbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "electron": "^8.0.0",
+    "fs": "0.0.1-security",
+    "log4js": "^6.1.1",
+    "npm": "^6.13.7",
+    "sqlite3": "^4.1.1",
+    "tmi.js": "^1.5.0",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {}
+}
